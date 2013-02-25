@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1878829916DBE01A00590EC3 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1878829816DBE01A00590EC3 /* statedictionary.plist */; };
 		18A052A816D9473B00B12F93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A052A716D9473B00B12F93 /* UIKit.framework */; };
 		18A052AA16D9473B00B12F93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A052A916D9473B00B12F93 /* Foundation.framework */; };
 		18A052AC16D9473B00B12F93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A052AB16D9473B00B12F93 /* CoreGraphics.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1878829816DBE01A00590EC3 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 		18A052A416D9473B00B12F93 /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A052A716D9473B00B12F93 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18A052A916D9473B00B12F93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -116,6 +118,7 @@
 		18A052AD16D9473B00B12F93 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				1878829816DBE01A00590EC3 /* statedictionary.plist */,
 				18A052B616D9473B00B12F93 /* BIDAppDelegate.h */,
 				18A052B716D9473B00B12F93 /* BIDAppDelegate.m */,
 				18A052E816D94A1200B12F93 /* TabBarController.xib */,
@@ -232,6 +235,7 @@
 				18A052E616D9499300B12F93 /* singleicon.png in Resources */,
 				18A052E716D9499300B12F93 /* toolicon.png in Resources */,
 				18A052E916D94A1200B12F93 /* TabBarController.xib in Resources */,
+				1878829916DBE01A00590EC3 /* statedictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +367,7 @@
 				18A052C316D9473B00B12F93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
