@@ -33,6 +33,14 @@
 		18A052E616D9499300B12F93 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A052E116D9499300B12F93 /* singleicon.png */; };
 		18A052E716D9499300B12F93 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A052E216D9499300B12F93 /* toolicon.png */; };
 		18A052E916D94A1200B12F93 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A052E816D94A1200B12F93 /* TabBarController.xib */; };
+		CECE326316DDF9BD00533FD3 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = CECE325A16DDF9BD00533FD3 /* apple.png */; };
+		CECE326416DDF9BD00533FD3 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = CECE325B16DDF9BD00533FD3 /* bar.png */; };
+		CECE326516DDF9BD00533FD3 /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = CECE325C16DDF9BD00533FD3 /* cherry.png */; };
+		CECE326616DDF9BD00533FD3 /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = CECE325D16DDF9BD00533FD3 /* crown.png */; };
+		CECE326716DDF9BD00533FD3 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = CECE325E16DDF9BD00533FD3 /* lemon.png */; };
+		CECE326816DDF9BD00533FD3 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = CECE325F16DDF9BD00533FD3 /* seven.png */; };
+		CECE326916DDF9BD00533FD3 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = CECE326116DDF9BD00533FD3 /* crunch.wav */; };
+		CECE326A16DDF9BD00533FD3 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = CECE326216DDF9BD00533FD3 /* win.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +79,14 @@
 		18A052E116D9499300B12F93 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
 		18A052E216D9499300B12F93 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 		18A052E816D94A1200B12F93 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		CECE325A16DDF9BD00533FD3 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		CECE325B16DDF9BD00533FD3 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		CECE325C16DDF9BD00533FD3 /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		CECE325D16DDF9BD00533FD3 /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		CECE325E16DDF9BD00533FD3 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		CECE325F16DDF9BD00533FD3 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		CECE326116DDF9BD00533FD3 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		CECE326216DDF9BD00533FD3 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +134,8 @@
 		18A052AD16D9473B00B12F93 /* Pickers */ = {
 			isa = PBXGroup;
 			children = (
+				CECE325916DDF9BD00533FD3 /* Custom Picker Images */,
+				CECE326016DDF9BD00533FD3 /* Custom Picker Sounds */,
 				1878829816DBE01A00590EC3 /* statedictionary.plist */,
 				18A052B616D9473B00B12F93 /* BIDAppDelegate.h */,
 				18A052B716D9473B00B12F93 /* BIDAppDelegate.m */,
@@ -166,6 +184,28 @@
 				18A052E216D9499300B12F93 /* toolicon.png */,
 			);
 			path = "Tab Bar Icons";
+			sourceTree = "<group>";
+		};
+		CECE325916DDF9BD00533FD3 /* Custom Picker Images */ = {
+			isa = PBXGroup;
+			children = (
+				CECE325A16DDF9BD00533FD3 /* apple.png */,
+				CECE325B16DDF9BD00533FD3 /* bar.png */,
+				CECE325C16DDF9BD00533FD3 /* cherry.png */,
+				CECE325D16DDF9BD00533FD3 /* crown.png */,
+				CECE325E16DDF9BD00533FD3 /* lemon.png */,
+				CECE325F16DDF9BD00533FD3 /* seven.png */,
+			);
+			path = "Custom Picker Images";
+			sourceTree = "<group>";
+		};
+		CECE326016DDF9BD00533FD3 /* Custom Picker Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				CECE326116DDF9BD00533FD3 /* crunch.wav */,
+				CECE326216DDF9BD00533FD3 /* win.wav */,
+			);
+			path = "Custom Picker Sounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +276,14 @@
 				18A052E716D9499300B12F93 /* toolicon.png in Resources */,
 				18A052E916D94A1200B12F93 /* TabBarController.xib in Resources */,
 				1878829916DBE01A00590EC3 /* statedictionary.plist in Resources */,
+				CECE326316DDF9BD00533FD3 /* apple.png in Resources */,
+				CECE326416DDF9BD00533FD3 /* bar.png in Resources */,
+				CECE326516DDF9BD00533FD3 /* cherry.png in Resources */,
+				CECE326616DDF9BD00533FD3 /* crown.png in Resources */,
+				CECE326716DDF9BD00533FD3 /* lemon.png in Resources */,
+				CECE326816DDF9BD00533FD3 /* seven.png in Resources */,
+				CECE326916DDF9BD00533FD3 /* crunch.wav in Resources */,
+				CECE326A16DDF9BD00533FD3 /* win.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +380,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pickers/Pickers-Prefix.pch";
 				INFOPLIST_FILE = "Pickers/Pickers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -343,6 +392,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pickers/Pickers-Prefix.pch";
 				INFOPLIST_FILE = "Pickers/Pickers-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
